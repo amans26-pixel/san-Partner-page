@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the SAN Softwares global partner network. Resell, implement, build technology integrations, or refer leads to grow your business with our enterprise B2B SaaS software.">
+    <meta name="keywords" content="SAN Softwares, Partnership, Reseller Partner, B2B SaaS, Technology Partner, Referral Partner, Implementation Partner, Enterprise Software">
+    <meta name="author" content="SAN Softwares">
+    <title>Partner With Us | SAN Softwares - Grow Your Business Together</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sansoftwares.com/partner-with-us">
+    <meta property="og:title" content="Partner With Us | SAN Softwares">
+    <meta property="og:description" content="Join our global network of resellers, implementation partners, technology innovators, and referral partners to deliver enterprise software solutions.">
+    <meta property="og:image" content="assets/hero_collaboration.jpg">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Sticky Header Navigation -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">SAN</span> Softwares
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#models" class="nav-link">Partnerships</a></li>
+                    <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li><a href="#trust" class="nav-link">Success Stories</a></li>
+                    <li><a href="#faq" class="nav-link">FAQs</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-cta">
+                <a href="#register" class="btn btn-primary btn-sm">Become a Partner</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO -->
+    <section class="section hero-section" id="hero">
+        <div class="bg-mesh bg-mesh-1"></div>
+        <div class="bg-mesh bg-mesh-2"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="badge">Partner Program</div>
+                <h1>Grow Your Business by Partnering with <span class="text-gradient">SAN Softwares</span></h1>
+                <p>Join our global network of resellers, implementation partners, technology innovators, and referral partners to deliver enterprise software solutions while creating new revenue opportunities.</p>
+                <div class="hero-actions">
+                    <a href="#register" class="btn btn-primary btn-lg">Become a Partner <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#register" class="btn btn-secondary btn-lg" onclick="setDiscussionMode()">Schedule a Discussion <i class="fa-solid fa-calendar-days"></i></a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-icons">
+                        <i class="fa-solid fa-shield-halved text-cyan"></i> Enterprise Grade
+                        <i class="fa-solid fa-circle-check text-cyan"></i> Certified Support
+                        <i class="fa-solid fa-globe text-cyan"></i> Global Network
+                    </div>
+                </div>
+            </div>
+            <div class="hero-media reveal delay-1">
+                <div class="media-frame">
+                    <img src="assets/hero_collaboration.jpg" alt="SAN Softwares Collaboration Dashboard" class="img-responsive hero-img">
+                    <div class="glowing-node node-1"></div>
+                    <div class="glowing-node node-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Partnership Models -->
+    <section class="section models-section" id="models">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="badge">Collaborative Paths</div>
+                <h2>Explore Our Partnership Models</h2>
+                <p class="section-desc">Choose a model that aligns with your business goals and expertise. Leverage our robust enterprise ecosystem for mutual growth.</p>
+            </div>
+            
+            <div class="models-grid reveal">
+                <!-- Card 1: Reseller / Channel Partner -->
+                <div class="model-card">
+                    <div class="model-card-inner">
+                        <div class="card-icon-wrapper bg-blue-grad">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <h3>Reseller / Channel Partner</h3>
+                        <p>Sell SAN Softwares solutions to your customers and earn attractive margins with our extensive sales enablement suite.</p>
+                        <a href="#register" class="btn-link" onclick="selectPartnerType('Reseller')">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Implementation Partner -->
+                <div class="model-card">
+                    <div class="model-card-inner">
+                        <div class="card-icon-wrapper bg-cyan-grad">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Implementation Partner</h3>
+                        <p>Deploy, customize and support our software solutions. Add professional services and integration revenues to your portfolio.</p>
+                        <a href="#register" class="btn-link" onclick="selectPartnerType('Implementation')">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Technology Partner -->
+                <div class="model-card">
+                    <div class="model-card-inner">
+                        <div class="card-icon-wrapper bg-navy-grad">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3>Technology Partner</h3>
+                        <p>Build integrated solutions through APIs and strategic collaboration. Connect your apps with our enterprise SaaS platform.</p>
+                        <a href="#register" class="btn-link" onclick="selectPartnerType('Technology')">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 4: Referral Partner -->
+                <div class="model-card">
+                    <div class="model-card-inner">
+                        <div class="card-icon-wrapper bg-orange-grad">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                        </div>
+                        <h3>Referral Partner</h3>
+                        <p>Refer qualified business opportunities from your network and earn lucrative, recurring referral rewards.</p>
+                        <a href="#register" class="btn-link" onclick="selectPartnerType('Referral')">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Why Partner With SAN Softwares -->
+    <section class="section why-section" id="why-us">
+        <div class="container why-container">
+            <div class="why-media reveal">
+                <div class="media-frame">
+                    <img src="assets/partnership_ecosystem.jpg" alt="SAN Softwares Partnership Ecosystem" class="img-responsive ecosystem-img">
+                </div>
+            </div>
+            
+            <div class="why-content reveal delay-1">
+                <div class="badge">The Advantage</div>
+                <h2>Why Choose SAN Softwares?</h2>
+                <p>We are dedicated to building profitable, long-term relationships. Our partner ecosystem is backed by leading resources, robust products, and support infrastructures designed to fuel your business growth.</p>
+                
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-chart-line text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Attractive Revenue Sharing</h4>
+                            <p>Lucrative margins and recurring commissions designed for predictable growth.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-cubes text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Enterprise Software Portfolio</h4>
+                            <p>Modern IVR, CRM, ERP, and telecom automation software clients love.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-graduation-cap text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Product Training & Certification</h4>
+                            <p>Free modules, technical deep dives, and official certification badges.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-bullhorn text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Marketing & Sales Enablement</h4>
+                            <p>Pre-packaged campaigns, brochures, sales assets, and co-branded banners.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 5 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-user-tie text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Dedicated Partner Manager</h4>
+                            <p>One-on-one direct advisory support to help close key enterprise accounts.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-headset text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Technical Support</h4>
+                            <p>24/7 dedicated engineering support escalation channels for our partners.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 7 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-bolt text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Fast Implementation Assistance</h4>
+                            <p>Accelerated deployment pipelines and support from our core engineering team.</p>
+                        </div>
+                    </div>
+                    <!-- Feature 8 -->
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-up-long text-gradient-primary"></i></div>
+                        <div>
+                            <h4>Long-Term Growth Opportunities</h4>
+                            <p>Upgrade channels and access to pre-releases and joint-venture strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: How It Works -->
+    <section class="section timeline-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="badge">Process</div>
+                <h2>Simple Four-Step Onboarding</h2>
+                <p class="section-desc">Get set up as an official SAN Softwares partner quickly. Our systematic workflow ensures you are ready to sell in no time.</p>
+            </div>
+            
+            <div class="timeline-container reveal">
+                <div class="timeline-line">
+                    <div class="timeline-progress" id="timelineProgress"></div>
+                </div>
+                
+                <div class="timeline-steps">
+                    <!-- Step 1 -->
+                    <div class="timeline-step active" data-step="1">
+                        <div class="step-icon">
+                            <span class="step-num">01</span>
+                            <i class="fa-solid fa-file-signature"></i>
+                        </div>
+                        <h4>Submit Application</h4>
+                        <p>Fill out the partnership form below with your agency profile details.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="timeline-step" data-step="2">
+                        <div class="step-icon">
+                            <span class="step-num">02</span>
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h4>Discovery Meeting</h4>
+                        <p>We review your application and hold a short call to align on synergies.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="timeline-step" data-step="3">
+                        <div class="step-icon">
+                            <span class="step-num">03</span>
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h4>Partner Onboarding</h4>
+                        <p>Gain access to the dashboard, resource assets, and product certifications.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="timeline-step" data-step="4">
+                        <div class="step-icon">
+                            <span class="step-num">04</span>
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h4>Start Selling & Growing</h4>
+                        <p>Close opportunities and start generating verified revenues with us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Success & Trust -->
+    <section class="section trust-section" id="trust">
+        <div class="container">
+            <!-- Statistics Grid -->
+            <div class="stats-grid reveal">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Business Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">Industries Served</div>
+                </div>
+                <div class="stat-number-wrapper stat-card">
+                    <div class="stat-number" data-target="99.9">0</div>
+                    <div class="stat-label">Service Availability %</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+
+            <!-- Logo Carousel -->
+            <div class="carousel-wrapper reveal">
+                <h4 class="carousel-title">Trusted by Leading Organizations Globally</h4>
+                <div class="logo-carousel">
+                    <div class="logo-track">
+                        <!-- Iteration 1 -->
+                        <div class="logo-item"><i class="fa-brands fa-microsoft"></i> <span>Microsoft Partner</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-aws"></i> <span>AWS Core</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-google"></i> <span>Google Cloud</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-salesforce"></i> <span>Salesforce Dev</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-oracle"></i> <span>Oracle Corp</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-cisco"></i> <span>Cisco Labs</span></div>
+                        <!-- Iteration 2 (duplicate for seamless loop) -->
+                        <div class="logo-item"><i class="fa-brands fa-microsoft"></i> <span>Microsoft Partner</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-aws"></i> <span>AWS Core</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-google"></i> <span>Google Cloud</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-salesforce"></i> <span>Salesforce Dev</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-oracle"></i> <span>Oracle Corp</span></div>
+                        <div class="logo-item"><i class="fa-brands fa-cisco"></i> <span>Cisco Labs</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="testimonials-wrapper reveal">
+                <div class="section-header text-center">
+                    <h2>What Our Partners Say</h2>
+                    <p class="section-desc">Success stories from agencies and integrators partnering with SAN Softwares.</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Partnering with SAN Softwares has dramatically expanded our portfolio. Their telephony APIs and CRM integration are outstanding, allowing us to deliver high-quality solutions to our clients in record time."</p>
+                        <div class="partner-profile">
+                            <div class="profile-avatar bg-blue-grad">
+                                <span>AM</span>
+                            </div>
+                            <div class="profile-info">
+                                <h5 class="profile-name">Amit Mishra</h5>
+                                <span class="profile-meta">CEO, Nexa Communications</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The revenue margins and dedicated manager support are the best in the industry. Whenever we encounter challenging enterprise requirements, the SAN team is there to back us up with engineering expertise."</p>
+                        <div class="partner-profile">
+                            <div class="profile-avatar bg-orange-grad">
+                                <span>SR</span>
+                            </div>
+                            <div class="profile-info">
+                                <h5 class="profile-name">Sanjay Rao</h5>
+                                <span class="profile-meta">VP of Channels, CloudLink India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Their onboarding process is extremely thorough. The product certifications enabled our implementation team to master the deployments autonomously. Highly recommended for growth-oriented agencies."</p>
+                        <div class="partner-profile">
+                            <div class="profile-avatar bg-cyan-grad">
+                                <span>KP</span>
+                            </div>
+                            <div class="profile-info">
+                                <h5 class="profile-name">Kavita Patel</h5>
+                                <span class="profile-meta">IT Operations Director, TechSolutions Group</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: Partner Registration Form -->
+    <section class="section form-section" id="register">
+        <div class="container form-container">
+            <div class="form-info reveal">
+                <div class="badge">Join Us</div>
+                <h2>Become a SAN Softwares Partner</h2>
+                <p class="info-intro">Take the first step towards building a lucrative, software-driven enterprise growth channel.</p>
+                <p>Complete the form with your details. Our channel development team will review your application within 2 business days to schedule a detailed discovery conversation.</p>
+                
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Immediate access to marketing collateral and partner resources upon approval.</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Special dev-sandbox accounts for Technology integrations.</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Lucrative commissions paid out transparently on a monthly cycle.</span>
+                    </div>
+                </div>
+                
+                <div class="contact-support">
+                    <p>Have immediate queries? Contact our partner helpdesk:</p>
+                    <a href="mailto:partners@sansoftwares.com"><i class="fa-solid fa-envelope"></i> partners@sansoftwares.com</a>
+                </div>
+            </div>
+            
+            <div class="form-wrapper reveal delay-1">
+                <div class="form-card glass-panel">
+                    <form id="partnerForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name <span class="req">*</span></label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                                <span class="error-msg">Please enter your name</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="jobTitle">Job Title <span class="req">*</span></label>
+                                <input type="text" id="jobTitle" name="jobTitle" required placeholder="Director of Sales">
+                                <span class="error-msg">Please enter your job title</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="companyName">Company Name <span class="req">*</span></label>
+                                <input type="text" id="companyName" name="companyName" required placeholder="Acme Corporation">
+                                <span class="error-msg">Please enter your company name</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website URL <span class="req">*</span></label>
+                                <input type="url" id="website" name="website" required placeholder="https://mycompany.com">
+                                <span class="error-msg">Please enter a valid website URL</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Business Email <span class="req">*</span></label>
+                                <input type="email" id="email" name="email" required placeholder="john@mycompany.com">
+                                <span class="error-msg">Please enter a valid business email</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="req">*</span></label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+91 99999 99999">
+                                <span class="error-msg">Please enter your phone number</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="country">Country <span class="req">*</span></label>
+                                <select id="country" name="country" required>
+                                    <option value="" disabled selected>Select your country</option>
+                                    <option value="India">India</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="UAE">UAE</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <span class="error-msg">Please select a country</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerType">Partnership Type <span class="req">*</span></label>
+                                <select id="partnerType" name="partnerType" required>
+                                    <option value="" disabled selected>Select partnership model</option>
+                                    <option value="Reseller">Reseller / Channel Partner</option>
+                                    <option value="Implementation">Implementation Partner</option>
+                                    <option value="Technology">Technology Partner</option>
+                                    <option value="Referral">Referral Partner</option>
+                                </select>
+                                <span class="error-msg">Please select a partnership type</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="businessDesc">Business Description <span class="req">*</span></label>
+                            <textarea id="businessDesc" name="businessDesc" rows="3" required placeholder="Describe your target market, services offered, and core competencies..."></textarea>
+                            <span class="error-msg">Please enter a description</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message / Additional Comments</label>
+                            <textarea id="message" name="message" rows="2" placeholder="Let us know if you have specific product interest or questions..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="privacyAgree" name="privacyAgree" required>
+                                <span class="checkmark"></span>
+                                <span class="label-text">I agree to the <a href="#" class="inline-link">Privacy Policy</a>. <span class="req">*</span></span>
+                            </label>
+                            <span class="error-msg block-error">You must accept the privacy policy</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <span class="btn-text">Submit Partnership Application</span>
+                            <span class="btn-spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i> Submitting...</span>
+                        </button>
+                    </form>
+
+                    <!-- Form Success State Overlay -->
+                    <div class="form-success-overlay" id="formSuccess">
+                        <div class="success-content">
+                            <div class="success-icon-wrapper animate-checkmark">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h3>Application Submitted!</h3>
+                            <p>Thank you for choosing to partner with SAN Softwares. A dedicated partner relationship manager has been assigned to you and will reach out to schedule our discovery meeting within 48 business hours.</p>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="resetFormState()">Submit Another Application</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: FAQ -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="badge">FAQ</div>
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-desc">Get answers to the most common queries about our program rules, requirements, and commissions.</p>
+            </div>
+            
+            <div class="faq-accordion reveal">
+                <!-- Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there any joining fee?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>No, there is absolutely no joining or licensing fee required to participate in our partner program. Our goal is to grow together, and we invest heavily in onboarding, certifying, and supporting our partners to build profitable business channels.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long is the approval process?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Our channel development team reviews applications within 2 business days. Once we hold the discovery call and verify your profile alignment, the partner account setup, onboarding packet dispatch, and dashboard activation are completed within 3 to 5 business days.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do I need technical expertise?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>While technical expertise is highly valuable (especially for Integration and Support-focused models), Referral Partners and Resellers do not necessarily require engineering depth. We supply thorough sales enablement assets, sales assistance, and pre-sales engineering consulting to close complex deals.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How are commissions paid?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Commissions are computed monthly and paid out directly to your registered business bank account. You can view all deal tracking details, payouts history, and upcoming milestones live via the SAN Partner Dashboard.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I partner from another country?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Yes, SAN Softwares operates a global partner program. We support partners and deployment channels worldwide, and we offer dedicated remote certification structures and localization support to adapt our applications for regional regulatory requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Will I receive product training?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Yes! We offer a structured training curriculum via our LMS. This includes sales pitch masterclasses, product configuration courses, API integration labs, and certification modules for your consultants. All resources are 100% free for approved partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: Final CTA -->
+    <section class="section final-cta-section">
+        <div class="container">
+            <div class="cta-banner reveal">
+                <div class="cta-bg-glow"></div>
+                <h2>Let's Grow Together</h2>
+                <p>Join SAN Softwares and build long-term business success through innovation, technology, and collaboration. Get started today.</p>
+                <a href="#register" class="btn btn-primary btn-lg">Become a Partner Today <i class="fa-solid fa-rocket"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <!-- Company Info Column -->
+            <div class="footer-col company-col">
+                <a href="#" class="footer-logo"><span class="logo-accent">SAN</span> Softwares</a>
+                <p class="footer-desc">Empowering enterprises with cutting-edge telecom, call center automation, IVR, ERP, and customized B2B communication software solutions globally.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/sansoftwares" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/sansoftwares" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com/company/sansoftwares" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com/sansoftwares" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Solutions Column -->
+            <div class="footer-col">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="#">Call Center Software (SanCCS)</a></li>
+                    <li><a href="#">IVR Solutions</a></li>
+                    <li><a href="#">Voice Broadcast System</a></li>
+                    <li><a href="#">Helpdesk CRM Integration</a></li>
+                    <li><a href="#">Toll-Free Services</a></li>
+                    <li><a href="#">IP PBX Solutions</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources Column -->
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Product Documentation</a></li>
+                    <li><a href="#">API Integrations API Guide</a></li>
+                    <li><a href="#">Partner Portal Login</a></li>
+                    <li><a href="#">Ebooks & Whitepapers</a></li>
+                    <li><a href="#">Success Stories / Case Studies</a></li>
+                    <li><a href="#">Pricing Calculator</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Column -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Press Releases</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact/Newsletter Column -->
+            <div class="footer-col newsletter-col">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to our partner network newsletter for product releases and marketing updates.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your work email" required aria-label="Newsletter email">
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-location-dot"></i> Netaji Subhash Place, Pitampura, New Delhi, India</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 11 4758 7777</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 SAN Softwares. All Rights Reserved. Designed for Enterprise Success.</p>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <a href="#register" class="floating-cta" id="floatingCta" aria-label="Become a Partner">
+        <i class="fa-solid fa-handshake"></i>
+        <span>Become a Partner</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
